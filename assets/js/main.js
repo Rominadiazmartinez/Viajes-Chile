@@ -47,5 +47,9 @@ $(document).ready(function(){
             color:"black"
         })
     })
+
+    $(".form-bot").click(function(event){
+        alert("Formulario enviado")   
+    })   
     
 })
