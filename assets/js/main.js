@@ -51,5 +51,15 @@ $(document).ready(function(){
     $(".form-bot").click(function(event){
         alert("Formulario enviado")   
     })   
+
+    $("h3").hover(function(event){
+    
+    
+        if(!$(this).hasClass("grande")){
+            $(this).addClass("grande");
+        }else{
+            $(this).removeClass("grande")
+        }
+    })
     
 })
