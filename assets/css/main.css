@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: #000;
+    font-family: "Oswald", sans-serif;
+}
+
+/* .navbar{
+    background-color: transparent;
+    } */
+
+header{
+    background-color: transparent;
+}
+
+#carouselExample{
+    position: relative;
+}
+
+.fa-plane{
+    background-color: #7ac2c2;
+    color: #fff;
+}
+
+.fa-mountain{
+    background-color: #7ac2c2;
+    color: #fff;
+}
+
+.fa-route{
+    background-color: #7ac2c2;
+    color: #fff;
+}
+
+.quienes{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.destacados{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card-desta{
+    height: 370px;
+    background-color: #7ac2c2;
+    color: #fff;
+}
+
+.card2{
+    height: 160px;
+}
+
+.contacto{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+hr{
+    color: #fff;
+}
+
+.form-label{
+    color: #fff;
+}
+
+.text-footer{
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.fa-brands{
+    color: #fff;
+    margin: 5px;
+    font-size: 2em;
+}
+
+.footer-chile{
+    background-color: #7ac2c2;
+    
+}
+
+.carousel-item{
+    height: 700px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.grande{
+    font-size: 50px;
+    color: pink;
+}
+
+
+@media(max-width:1024px){
+    .carousel-item{
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+    }
+}
